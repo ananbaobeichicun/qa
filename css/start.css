@@ -1,0 +1,38 @@
+html {
+	background: -webkit-radial-gradient(60% 55%, farthest-corner,green,blue);
+}
+a {
+	position: absolute;
+	top: 50%;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-size: 100% 100%;
+}
+a:hover {
+	width: 60px;
+	height: 60px;
+}
+#indghex {
+	left: 25%;
+	background-image: url("../img/start/start.png");
+}
+#handbook {
+	left: 50%;
+	background-image: url("../img/help/handbook/handbookIcon.png");
+}
+#help {
+	left: 75%;
+	background-image: url("../img/help/helpIcon.png");
+}
+h1 {
+	position: absolute;
+	top: 25%;
+	left: 45%;
+	animation: change-color 4s infinite;
+}
+@keyframes change-color{
+0%{color: skyblue;}
+50%{color: yellow;}
+100%{color: skyblue;}
+}

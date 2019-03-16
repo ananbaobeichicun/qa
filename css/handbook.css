@@ -1,0 +1,35 @@
+div {
+	display: inline-block;
+}
+.show {
+	width: 19.46%;
+	margin-left: 3px;
+}
+.inner-show{
+	text-align: center;
+}
+.x-line, .y-line {
+	position: absolute;
+	border: solid 1px red;
+	margin: 0px;
+}
+.x-line {
+	left: 0px;
+	width: 100%;
+	height: 0px;
+}
+.y-line {
+	top: 0px;
+	width: 0px;
+	height: 100%;
+}
+.return {
+	position: absolute;
+	bottom: 0px;
+}
+#return-help{
+	right: 0px;
+}
+#return-start{
+	left: 0px;
+}

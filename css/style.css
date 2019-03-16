@@ -1,0 +1,82 @@
+@keyframes myfirst
+{
+0%{
+left:50%;
+top:50%;
+width:0%;
+height:0%;
+}
+100%{
+left:0%;
+top:0%;
+width:100%;
+height:100%;
+}
+}
+canvas {
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	box-sizing: border-box;
+	margin: -8px;
+}
+
+.ad {
+	position: absolute;
+	display: none;
+	animation: myfirst 3s;
+}
+
+#zhanwei {
+	background-color: red;
+	position: absolute;
+	top: 0px;
+	left: 635px;
+	height: 100%;
+	width: 53%;
+}
+
+img {
+	position: absolute;
+	z-index: 100;
+}
+
+.to-hide-cell {
+	background-color: white;
+	position: absolute;
+}
+
+#to-hide-right-cell {
+	height: 100%;
+	width: 54%;
+	top: 0;
+	left: 46%;
+}
+
+#to-hide-bottom-cell {
+	height: 6%;
+	width: 100%;
+	top: 94%;
+	left: 0;
+}
+
+#to-show-score {
+	font-size: 50px;
+	color: red;
+	position: absolute;
+	top: 0;
+	left: 46%;
+	z-index: 1;
+}
+
+#retry {
+	position: absolute;
+	z-index: 100;
+	top: 50%;
+	left: 50%;
+	width: 50px;
+	height: 50px;
+	background-size: 100% 100%;
+	background-image: url("../img/retry.png");
+	display: none;
+}
